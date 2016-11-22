@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98DBA7B51D9F0BA000A37778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DBA7B41D9F0BA000A37778 /* AppDelegate.swift */; };
+		98DBA7BA1D9F0BA000A37778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98DBA7B81D9F0BA000A37778 /* Main.storyboard */; };
+		98DBA7BC1D9F0BA000A37778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98DBA7BB1D9F0BA000A37778 /* Assets.xcassets */; };
+		98DBA7BF1D9F0BA000A37778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98DBA7BD1D9F0BA000A37778 /* LaunchScreen.storyboard */; };
+		98DBA7C71D9F0D5500A37778 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DBA7C61D9F0D5500A37778 /* HomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		98DBA7B11D9F0BA000A37778 /* HypnosticApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypnosticApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98DBA7B41D9F0BA000A37778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98DBA7B91D9F0BA000A37778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98DBA7BB1D9F0BA000A37778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98DBA7BE1D9F0BA000A37778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98DBA7C01D9F0BA000A37778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98DBA7C61D9F0D5500A37778 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98DBA7AE1D9F0BA000A37778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98DBA7A81D9F0BA000A37778 = {
+			isa = PBXGroup;
+			children = (
+				98DBA7B31D9F0BA000A37778 /* HypnosticApp */,
+				98DBA7B21D9F0BA000A37778 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98DBA7B21D9F0BA000A37778 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98DBA7B11D9F0BA000A37778 /* HypnosticApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98DBA7B31D9F0BA000A37778 /* HypnosticApp */ = {
+			isa = PBXGroup;
+			children = (
+				98DBA7B41D9F0BA000A37778 /* AppDelegate.swift */,
+				98DBA7B81D9F0BA000A37778 /* Main.storyboard */,
+				98DBA7C61D9F0D5500A37778 /* HomeViewController.swift */,
+				98DBA7BB1D9F0BA000A37778 /* Assets.xcassets */,
+				98DBA7BD1D9F0BA000A37778 /* LaunchScreen.storyboard */,
+				98DBA7C01D9F0BA000A37778 /* Info.plist */,
+			);
+			path = HypnosticApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98DBA7B01D9F0BA000A37778 /* HypnosticApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98DBA7C31D9F0BA000A37778 /* Build configuration list for PBXNativeTarget "HypnosticApp" */;
+			buildPhases = (
+				98DBA7AD1D9F0BA000A37778 /* Sources */,
+				98DBA7AE1D9F0BA000A37778 /* Frameworks */,
+				98DBA7AF1D9F0BA000A37778 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HypnosticApp;
+			productName = HypnosticApp;
+			productReference = 98DBA7B11D9F0BA000A37778 /* HypnosticApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98DBA7A91D9F0BA000A37778 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "___KesongXie___";
+				TargetAttributes = {
+					98DBA7B01D9F0BA000A37778 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2ATYTS9SNC;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 98DBA7AC1D9F0BA000A37778 /* Build configuration list for PBXProject "HypnosticApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98DBA7A81D9F0BA000A37778;
+			productRefGroup = 98DBA7B21D9F0BA000A37778 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98DBA7B01D9F0BA000A37778 /* HypnosticApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98DBA7AF1D9F0BA000A37778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DBA7BF1D9F0BA000A37778 /* LaunchScreen.storyboard in Resources */,
+				98DBA7BC1D9F0BA000A37778 /* Assets.xcassets in Resources */,
+				98DBA7BA1D9F0BA000A37778 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98DBA7AD1D9F0BA000A37778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DBA7B51D9F0BA000A37778 /* AppDelegate.swift in Sources */,
+				98DBA7C71D9F0D5500A37778 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98DBA7B81D9F0BA000A37778 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98DBA7B91D9F0BA000A37778 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98DBA7BD1D9F0BA000A37778 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98DBA7BE1D9F0BA000A37778 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98DBA7C11D9F0BA000A37778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98DBA7C21D9F0BA000A37778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98DBA7C41D9F0BA000A37778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2ATYTS9SNC;
+				INFOPLIST_FILE = HypnosticApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kesongxie.HypnosticApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		98DBA7C51D9F0BA000A37778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2ATYTS9SNC;
+				INFOPLIST_FILE = HypnosticApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kesongxie.HypnosticApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98DBA7AC1D9F0BA000A37778 /* Build configuration list for PBXProject "HypnosticApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98DBA7C11D9F0BA000A37778 /* Debug */,
+				98DBA7C21D9F0BA000A37778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98DBA7C31D9F0BA000A37778 /* Build configuration list for PBXNativeTarget "HypnosticApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98DBA7C41D9F0BA000A37778 /* Debug */,
+				98DBA7C51D9F0BA000A37778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98DBA7A91D9F0BA000A37778 /* Project object */;
+}
